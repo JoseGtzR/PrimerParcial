@@ -19,6 +19,7 @@ namespace Personal.Models
 
         public List Lista { get; set; }
 
+        [DataType(DataType.DateTime)]
         [Required(ErrorMessage = "Cumpleaños")]
         public DateTime Birthdate { get; set; }
 
